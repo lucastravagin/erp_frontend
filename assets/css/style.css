@@ -15,7 +15,7 @@ body{
 	height:100%;
 }
 ::-webkit-scrollbar{width:5px; height:7px}
-::-webkit-scrollbar-thumb { background: #90b7a8;border-radius:5px}
+::-webkit-scrollbar-thumb { background: #f39c12;border-radius:5px}
 ::-webkit-scrollbar-track { background:#292b40}
 
 body.base-login{
@@ -178,7 +178,7 @@ body.base-login .window .fechar:hover{color:red}
 .mostrarClass{
 	display: block!important;
     position: absolute;
-    background: #556c63;
+    background: #292b40;
     width: 200px;
     border-radius: 0 0 4px 4px;
     box-shadow: 0px 3px 4px 0 #00000070;
@@ -198,7 +198,7 @@ body.base-login .window .fechar:hover{color:red}
    overflow-y: auto;
     margin-top: 63px;
     height: calc(100vh - 63px)!important;
-    background:#556C63;
+    background:#292b40;
 	z-index:2;
 	transition:all .4s
 }
@@ -231,7 +231,7 @@ body.base-login .window .fechar:hover{color:red}
 	width:100%;
 }
 .modulos .item{
-	background: #c5ccc9bd;
+	background: #f39c12bd;
     box-shadow: inset 2px 0 0 0px #26283b;
 }
 
@@ -239,7 +239,7 @@ body.base-login .window .fechar:hover{color:red}
 .menu-ul{
 	/*max-height: calc(100vh - -583px);
     overflow-y: scroll;*/
-    background:#556C63
+    background:#292b40
 }
 .menu-ul li{
 	display:block;
@@ -348,7 +348,7 @@ body.base-login .window .fechar:hover{color:red}
 	display:none;
 }
 .item label{
-	border-bottom:solid 1px #c5ccc9;
+	border-bottom:solid 1px #ddd;
 	display:block;
 	cursor:pointer;
 	padding:15px 25px;
@@ -435,7 +435,7 @@ body.base-login .window .fechar:hover{color:red}
 	background:#fff;
 	border-radius:5px;
 	margin-bottom:20px;
-	border: solid 1px #c5ccc9;
+	border: solid 1px #ddd;
 }
 .caixa .caixa-titulo{
 	text-align:left;
@@ -448,7 +448,7 @@ body.base-login .window .fechar:hover{color:red}
 	border-radius:5px 5px 0 0;
 }
 .caixa .caixa-rodape{	
-	border-top: solid 1px #c5ccc9;
+	border-top: solid 1px #ddd;
     padding: 20px;
     background: #292b402e;
     border-radius: 0 0 5px 5px;
@@ -607,11 +607,11 @@ body.base-login .window .fechar:hover{color:red}
 .pl-0,.px-0{padding-left:0!important;}
 .pr-0,.px-0{padding-right:0!important;}
 
-.border-left{border-left:solid 1px #c5ccc9!important}
-.border-right{border-right:solid 1px #c5ccc9!important}
-.border-top{border-top:solid 1px #c5ccc9!important}
-.border-bottom{border-bottom:solid 1px #c5ccc9!important}
-.border{border:solid 1px #c5ccc9!important}
+.border-left{border-left:solid 1px #ddd!important}
+.border-right{border-right:solid 1px #ddd!important}
+.border-top{border-top:solid 1px #ddd!important}
+.border-bottom{border-bottom:solid 1px #ddd!important}
+.border{border:solid 1px #ddd!important}
 .border-0{border:0!important}
 
 /*fonts*/
@@ -831,7 +831,7 @@ progress.progress-amarelo::-webkit-progress-bar{background:#ffff007d;}
 .listaProdutos ul {
 	margin-right: 15px;
     margin-left: 15px;
-    border: solid 1px #556c63;
+    border: solid 1px #292b40;
 	border-radius:0 0 4px 4px;
 	overflow:hidden;
 }
@@ -850,7 +850,7 @@ progress.progress-amarelo::-webkit-progress-bar{background:#ffff007d;}
 	color:#404e49
 }
 .listaProdutos a:hover {
-    background:#556c633b
+    background:#292b403b
 }
 
 
@@ -913,8 +913,8 @@ input[type=date],
 input[type=number]{padding: 7px 10px;}
 
 
-.border-top{border-top:solid 1px #c5ccc9}
-.border-left{border-left:solid 1px #c5ccc9}
+.border-top{border-top:solid 1px #f39c12}
+.border-left{border-left:solid 1px #f39c12}
 
 /*imagem*/
 .img-fluido{max-width:100%;}
@@ -1000,7 +1000,7 @@ ul.tabs {
 ul.tabs li {
    width:auto;
 	padding:15px 10px;
-	background:#556c63;
+	background:#292b40;
 	cursor:pointer;
 	display:block;
 	color:#fff;
@@ -1011,10 +1011,10 @@ ul.tabs li {
 	margin-left:1px
 }
 ul.tabs li.current {
-    border-bottom: solid 3px #c5ccc9;
+    border-bottom: solid 3px #f39c12;
     position: relative;
-    background: #c5ccc9;
-   color:#495d55;
+    background: #f39c12;
+   color:#fff;
 }
 
 .tab-content{
@@ -1029,8 +1029,8 @@ ul.tabs li.current {
     float: left;    
 	background:none;	
 	padding:5px 30px;
-    border: solid 1px #c5ccc9;
-    border-top: solid 3px #c5ccc9;
+    border: solid 1px #ddd;
+    border-top: solid 3px #ddd;
 	border-radius:0 0 5px 5px;
 }
 .itens-check label{    
